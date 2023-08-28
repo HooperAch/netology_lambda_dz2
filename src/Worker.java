@@ -14,7 +14,7 @@ public class Worker {
 
     public void start() {
         for (int i = 0; i < 100; i++) {
-            if (i == 3) {
+            if (i == 33) {
                 errorCallback.onError("ERORR! Task " + i);
             } else {
                 callback.onDone("Task " + i + " is done");
